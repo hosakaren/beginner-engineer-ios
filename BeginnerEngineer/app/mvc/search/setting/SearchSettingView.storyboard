@@ -229,6 +229,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="検索条件" id="8Zd-uG-4hZ"/>
                     <connections>
+                        <outlet property="dateViewArea" destination="8Dv-eg-eTC" id="sgK-f8-gso"/>
+                        <outlet property="dateViewAreaLabel" destination="TvJ-v3-JgP" id="1LW-aA-xAv"/>
                         <outlet property="languageViewArea" destination="Qeg-Fu-FXd" id="Tl6-fN-uuE"/>
                     </connections>
                 </viewController>
