@@ -13,21 +13,21 @@ class SearchSettingLanguageViewController: UIViewControllerBase {
     // テーブルビュー
     @IBOutlet weak var tableView: UITableView!
     
-    private let laguageList: [(labelText: String, isTapped: Bool)] = [
-        (labelText: StringEnum.java.rawValue, isTapped: false),
-        (labelText: StringEnum.python.rawValue, isTapped: false),
-        (labelText: StringEnum.ruby.rawValue, isTapped: false),
-        (labelText: StringEnum.php.rawValue, isTapped: false),
-        (labelText: StringEnum.javasc.rawValue, isTapped: false),
-        (labelText: StringEnum.typescript.rawValue, isTapped: false),
-        (labelText: StringEnum.kotlin.rawValue, isTapped: false),
-        (labelText: StringEnum.swift.rawValue, isTapped: false),
-        (labelText: StringEnum.go.rawValue, isTapped: false),
-        (labelText: StringEnum.c.rawValue, isTapped: false),
-        (labelText: StringEnum.csharp.rawValue, isTapped: false),
-        (labelText: StringEnum.cplusplus.rawValue, isTapped: false),
-        (labelText: StringEnum.html_css.rawValue, isTapped: false),
-        (labelText: StringEnum.otherLang.rawValue, isTapped: false)
+    private var laguageList: [(labelText: String, iHiddensCheckMarkImage: Bool)] = [
+        (labelText: StringEnum.java.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.python.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.ruby.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.php.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.javasc.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.typescript.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.kotlin.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.swift.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.go.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.c.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.csharp.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.cplusplus.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.html_css.rawValue, iHiddensCheckMarkImage: true),
+        (labelText: StringEnum.otherLang.rawValue, iHiddensCheckMarkImage: true)
     ]
     
     override func viewDidLoad() {
@@ -53,8 +53,9 @@ extension SearchSettingLanguageViewController: UITableViewDelegate, UITableViewD
         let cell =
             tableView.dequeueReusableCell(withIdentifier: "SearchSettingLanguageCellTableViewCell", for: indexPath)
             as! SearchSettingLanguageCellTableViewCell
+        let language = laguageList[indexPath.row]
         // セルに表示する値を設定する
-        cell.langlabel!.text = laguageList[indexPath.row].labelText
+        cell.setupCell(langLabelText: language.labelText, isHiddenCheckMarkImage: language.iHiddensCheckMarkImage)
         
         return cell
     }
@@ -66,20 +67,11 @@ extension SearchSettingLanguageViewController: UITableViewDelegate, UITableViewD
     
     // セルタップ(選択)
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let language = laguageList[indexPath.row]
+        //リストの値書き換え
+        laguageList[indexPath.row].iHiddensCheckMarkImage = !language.iHiddensCheckMarkImage
         // セルを取得する
         let cell = tableView.cellForRow(at: indexPath) as! SearchSettingLanguageCellTableViewCell
-        let isHidden: Bool = cell.checkMarkImage.isHidden
-        if isHidden {
-            cell.checkMarkImage.isHidden = false
-        } else {
-            cell.checkMarkImage.isHidden = true
-        }
+        cell.updateCell(langLabelText: laguageList[indexPath.row].labelText)
     }
-    
-//    // セルタップ(解除)
-//    func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-//        // セルを取得する
-//        let cell = tableView.cellForRow(at: indexPath) as! SearchSettingLanguageCellTableViewCell
-//        cell.checkMarkImage.isHidden = false
-//    }
 }

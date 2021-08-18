@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="syb-19-YM2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
@@ -12,7 +12,6 @@
         <!--カレンダー-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Y6W-OH-hqX" customClass="CalendarViewController" customModule="BeginnerEngineer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -49,7 +48,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="カレンダー" id="XBa-Rl-ciz">
-                        <barButtonItem key="rightBarButtonItem" image="barButtonItem:Vwx-HV-vWm:image" catalog="system" id="Vwx-HV-vWm">
+                        <barButtonItem key="rightBarButtonItem" image="barButtonItem:Vwx-HV-vWm:image" id="Vwx-HV-vWm">
                             <connections>
                                 <action selector="tapPlsBtn:" destination="Y6W-OH-hqX" id="fF9-6i-rOb"/>
                             </connections>
@@ -60,35 +59,13 @@
                         <outlet property="calendar" destination="6lQ-sL-k8I" id="YgC-iF-ZJp"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2765.217391304348" y="93.75"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="3qq-zW-5Cn">
-            <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DcY-mA-aOz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="syb-19-YM2" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" id="oYu-QR-DIU">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="barTintColor" name="main_color"/>
-                        <textAttributes key="titleTextAttributes">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="cu4-mf-YUo"/>
-                    </connections>
-                </navigationController>
-            </objects>
-            <point key="canvasLocation" x="1855.072463768116" y="93.75"/>
-        </scene>
     </scenes>
     <resources>
-        <image name="barButtonItem:Vwx-HV-vWm:image" catalog="system" width="128" height="113">
+        <image name="barButtonItem:Vwx-HV-vWm:image" width="128" height="113">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05T
 S2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBELDBscIRkmKywzNjlDS0xQU1UkbnVsbNcNDg8QERITFBUW
@@ -15671,7 +15648,7 @@ QXsADkGDAA5BhgAOQYsADkGTAAAAAAAABAEAAAAAAAAAVgAAAAAAAAAAAAAAAAAOQZY
 </mutableData>
         </image>
         <namedColor name="main_color">
-            <color red="0.12984204290000001" green="0.12984612579999999" blue="0.152" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.12999999523162842" green="0.12999999523162842" blue="0.15199999511241913" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="tertiarySystemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
