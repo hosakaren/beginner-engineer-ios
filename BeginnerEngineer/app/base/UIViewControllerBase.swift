@@ -15,9 +15,6 @@ class UIViewControllerBase: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if currentStoryBoardIdEnum.getStoryBoardIDEnumDetail().isNavigationBar {
-            // ナビゲーションバー
-        }
         if currentStoryBoardIdEnum.getStoryBoardIDEnumDetail().isBottomTabBar {
             // ボトムタブ作成
             self.createBottomTabBar()
@@ -45,6 +42,10 @@ class UIViewControllerBase: UIViewController {
     // バックグラウンド待機
     override open func viewDidDisappear(_ animated: Bool) {
         
+    }
+    
+    open func tapBackBtn() {
+        self.dismiss(animated: true, completion: nil)
     }
 }
 

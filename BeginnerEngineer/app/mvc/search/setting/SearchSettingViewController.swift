@@ -9,7 +9,8 @@ import UIKit
 import Foundation
 
 class SearchSettingViewController: UIViewControllerBase {
-    
+    //キーワード入力
+    @IBOutlet weak var keyword: UITextField!
     // 日付選択ビューエリア
     @IBOutlet weak var dateViewArea: UIView!
     // 言語選択エリア
@@ -20,13 +21,19 @@ class SearchSettingViewController: UIViewControllerBase {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.keyword.attributedPlaceholder = NSAttributedString(string: "キーワードを入力", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
         //日付選択ビューエリアタップ登録
-        let tapDateViewArea = UITapGestureRecognizer(target: self, action: #selector(tapDateViewArea))
+        let tapDateViewArea = UITapGestureRecognizer(target: self, action: #selector(self.tapDateViewArea))
         self.dateViewArea.addGestureRecognizer(tapDateViewArea)
 
         // 言語エリアをタップ登録
-        let tapLangViewArea = UITapGestureRecognizer(target: self, action: #selector(tapLanguageViewArea))
+        let tapLangViewArea = UITapGestureRecognizer(target: self, action: #selector(self.tapLanguageViewArea))
         self.languageViewArea.addGestureRecognizer(tapLangViewArea)
+    }
+    
+    // 戻るボタンタップ
+    @IBAction func tapBackBtn(_ sender: Any) {
+        super.tapBackBtn()
     }
     
     // 日付選択エリアタップ

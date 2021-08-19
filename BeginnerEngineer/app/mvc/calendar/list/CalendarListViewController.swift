@@ -37,9 +37,9 @@ class CalendarListViewController:
         //self.calendar.collectionView.cellForItem(at: <#T##IndexPath#>)
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    // 戻るボタンタップ
+    @IBAction func tapBackBtn(_ sender: Any) {
+        super.tapBackBtn()
     }
     
     fileprivate let gregorian: Calendar = Calendar(identifier: .gregorian)

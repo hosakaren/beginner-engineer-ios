@@ -38,6 +38,10 @@ class SearchSettingLanguageViewController: UIViewControllerBase {
         
         tableView.register(UINib(nibName: "SearchSettingLanguageCellTableViewCell", bundle: nil), forCellReuseIdentifier: "SearchSettingLanguageCellTableViewCell")
     }
+    // 戻るボタンタップ
+    @IBAction func tapBackBtn(_ sender: Any) {
+        super.tapBackBtn()
+    }
 }
 
 extension SearchSettingLanguageViewController: UITableViewDelegate, UITableViewDataSource {

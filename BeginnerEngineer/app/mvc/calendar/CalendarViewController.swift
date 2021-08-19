@@ -38,9 +38,9 @@ class CalendarViewController:
         self.calendar.calendarWeekdayView.backgroundColor = mainColor
     }
     
-    // プラスボタンタップ
-    @IBAction func tapPlsBtn(_ sender: Any) {
-        
+    // カレンダーボタンタップ
+    @IBAction func tapCalendarBtn(_ sender: Any) {
+        self.transitionStoryBoard(sbEnum: StoryBoardIDEnum.calendarListViewId)
     }
     
 //    // カレンダーボタンタップ
