@@ -19,4 +19,8 @@ class CalendarViewController: UIViewControllerBase {
     @IBAction func tapCalendarBtn(_ sender: Any) {
         self.transitionStoryBoard(sbEnum: StoryBoardIDEnum.calendarListViewId)
     }
+    
+    // 投稿ボタンタップ
+    @IBAction func tapRegisterBtn(_ sender: Any) {
+    }
 }

@@ -31,6 +31,11 @@ class SearchSettingViewController: UIViewControllerBase {
         self.languageViewArea.addGestureRecognizer(tapLangViewArea)
     }
     
+    // 画面に戻ってきたとき
+    override open func viewWillAppear(_ animated: Bool) {
+        print(self.appData.selectedLanguage)
+    }
+    
     // 戻るボタンタップ
     @IBAction func tapBackBtn(_ sender: Any) {
         super.tapBackBtn()

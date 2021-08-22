@@ -52,6 +52,7 @@ class SearchSettingLanguageViewController: UIViewControllerBase {
         for list in laguageList where !list.iHiddensCheckMarkImage {
             checkedLanguageList.append(list.labelText)
         }
+        self.appData.selectedLanguage = checkedLanguageList
         super.tapBackBtn()
     }
     

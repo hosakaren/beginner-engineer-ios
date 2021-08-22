@@ -7,5 +7,6 @@
 
 // 一時的なアプリデータを保存
 public class AppData {
-    
+        
+    var selectedLanguage:[String] = []
 }

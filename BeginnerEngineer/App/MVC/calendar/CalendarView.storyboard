@@ -35,6 +35,12 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="カレンダー" id="XBa-Rl-ciz">
+                        <barButtonItem key="leftBarButtonItem" image="pencil.tip.crop.circle.badge.plus" catalog="system" id="XSy-gA-Ev4">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="tapRegisterBtn:" destination="Y6W-OH-hqX" id="Wgr-cv-SMM"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="calendar" catalog="system" id="5om-P0-UeX">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -75,6 +81,7 @@
     </scenes>
     <resources>
         <image name="calendar" catalog="system" width="128" height="106"/>
+        <image name="pencil.tip.crop.circle.badge.plus" catalog="system" width="128" height="108"/>
         <namedColor name="main_color">
             <color red="0.12999999523162842" green="0.12999999523162842" blue="0.15199999511241913" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

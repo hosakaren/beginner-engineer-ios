@@ -10,6 +10,8 @@ import Foundation
 
 class UIViewControllerBase: UIViewController {
         
+    var appData = AppData()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
