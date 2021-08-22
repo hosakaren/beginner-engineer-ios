@@ -36,12 +36,25 @@ class SearchSettingLanguageViewController: UIViewControllerBase {
         tableView.delegate = self
         tableView.dataSource = self
         
+        // セパレーター削除
+        tableView.separatorStyle = .none
+
         tableView.register(UINib(nibName: "SearchSettingLanguageCellTableViewCell", bundle: nil), forCellReuseIdentifier: "SearchSettingLanguageCellTableViewCell")
     }
     // 戻るボタンタップ
     @IBAction func tapBackBtn(_ sender: Any) {
         super.tapBackBtn()
     }
+    
+    // 決定ボタンタップ
+    @IBAction func tapDecidingBtn(_ sender: Any) {
+        var checkedLanguageList: [String] = []
+        for list in laguageList where !list.iHiddensCheckMarkImage {
+            checkedLanguageList.append(list.labelText)
+        }
+        super.tapBackBtn()
+    }
+    
 }
 
 extension SearchSettingLanguageViewController: UITableViewDelegate, UITableViewDataSource {

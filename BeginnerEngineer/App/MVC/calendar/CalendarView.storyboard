@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P2c-fy-A03">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,7 +13,6 @@
         <!--カレンダー-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Y6W-OH-hqX" customClass="CalendarViewController" customModule="BeginnerEngineer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -25,42 +25,26 @@
                                     <constraint firstAttribute="height" constant="1" id="1Il-wi-UbE"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6lQ-sL-k8I" userLabel="FSCalendar" customClass="FSCalendar">
-                                <rect key="frame" x="0.0" y="89" width="414" height="200"/>
-                                <color key="backgroundColor" name="main_color"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="200" id="6Ny-jh-JlG"/>
-                                </constraints>
-                                <connections>
-                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="e87-7w-B98"/>
-                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="wkn-s1-GCd"/>
-                                </connections>
-                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" name="main_color"/>
                         <constraints>
-                            <constraint firstItem="6lQ-sL-k8I" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="SOG-AH-YIb"/>
                             <constraint firstItem="jZZ-FH-bc4" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="pgS-qq-CIu"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="jZZ-FH-bc4" secondAttribute="trailing" id="pnx-JY-ufs"/>
-                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="6lQ-sL-k8I" secondAttribute="trailing" id="tlk-Uk-sce"/>
-                            <constraint firstItem="6lQ-sL-k8I" firstAttribute="top" secondItem="jZZ-FH-bc4" secondAttribute="bottom" id="vhz-hI-MJI"/>
                             <constraint firstItem="jZZ-FH-bc4" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="xCO-eG-3lv"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="カレンダー" id="XBa-Rl-ciz">
                         <barButtonItem key="rightBarButtonItem" image="calendar" catalog="system" id="5om-P0-UeX">
-                            <color key="tintColor" systemColor="tertiarySystemBackgroundColor"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="tapCalendarBtn:" destination="Y6W-OH-hqX" id="QlY-Bx-8QS"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
-                    <connections>
-                        <outlet property="calendar" destination="6lQ-sL-k8I" id="YgC-iF-ZJp"/>
-                    </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3675.36231884058" y="93.75"/>
         </scene>

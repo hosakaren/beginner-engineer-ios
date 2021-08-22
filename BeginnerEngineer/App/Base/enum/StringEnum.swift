@@ -16,9 +16,9 @@ enum StringEnum: String {
     case tab2_title = "カレンダー"
     case tab2_image = "calendar"
     case tab3_title = "グラフ"
-    case tab3_image = "chart.bar.xaxis"
+    case tab3_image = "chart"
     case tab4_title = "設定"
-    case tab4_image = "gearshape"
+    case tab4_image = "gear"
 
     
     case yyyyMM = "yyyy年MM月"

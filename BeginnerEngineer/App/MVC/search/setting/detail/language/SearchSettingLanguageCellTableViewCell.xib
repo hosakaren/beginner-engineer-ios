@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -21,8 +22,8 @@
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M1W-Gl-Mcf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="scribble.variable" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7Mz-Pg-bZm">
-                                <rect key="frame" x="10" y="9.5" width="21" height="23.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="scribble" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="7h6-5R-CB3">
+                                <rect key="frame" x="10" y="10" width="21" height="23"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ogc-Xw-k18">
@@ -41,14 +42,14 @@
                         </subviews>
                         <color key="backgroundColor" name="main_color"/>
                         <constraints>
-                            <constraint firstItem="7Mz-Pg-bZm" firstAttribute="top" secondItem="M1W-Gl-Mcf" secondAttribute="top" constant="10" id="A62-MU-8QS"/>
                             <constraint firstItem="Ogc-Xw-k18" firstAttribute="top" secondItem="M1W-Gl-Mcf" secondAttribute="top" constant="10" id="Cep-H6-ZI9"/>
-                            <constraint firstItem="Ogc-Xw-k18" firstAttribute="leading" secondItem="7Mz-Pg-bZm" secondAttribute="trailing" constant="5" id="HNs-SU-EAq"/>
+                            <constraint firstItem="7h6-5R-CB3" firstAttribute="top" secondItem="M1W-Gl-Mcf" secondAttribute="top" constant="10" id="Gv2-HU-zFa"/>
                             <constraint firstItem="cPn-6Y-Vc6" firstAttribute="top" secondItem="M1W-Gl-Mcf" secondAttribute="top" constant="10" id="Nja-0c-YMB"/>
-                            <constraint firstItem="7Mz-Pg-bZm" firstAttribute="leading" secondItem="M1W-Gl-Mcf" secondAttribute="leading" constant="10" id="P4P-yt-vyR"/>
-                            <constraint firstAttribute="bottom" secondItem="7Mz-Pg-bZm" secondAttribute="bottom" constant="10" id="U0X-Sp-MtK"/>
+                            <constraint firstItem="7h6-5R-CB3" firstAttribute="leading" secondItem="M1W-Gl-Mcf" secondAttribute="leading" constant="10" id="Qhu-5M-Olv"/>
                             <constraint firstAttribute="bottom" secondItem="cPn-6Y-Vc6" secondAttribute="bottom" constant="10" id="VNd-ig-89m"/>
                             <constraint firstAttribute="bottom" secondItem="Ogc-Xw-k18" secondAttribute="bottom" constant="10" id="gRn-2Q-AcQ"/>
+                            <constraint firstAttribute="bottom" secondItem="7h6-5R-CB3" secondAttribute="bottom" constant="10" id="h97-is-oFb"/>
+                            <constraint firstItem="Ogc-Xw-k18" firstAttribute="leading" secondItem="7h6-5R-CB3" secondAttribute="trailing" constant="5" id="tIL-1A-2zy"/>
                             <constraint firstAttribute="trailing" secondItem="cPn-6Y-Vc6" secondAttribute="trailing" constant="10" id="zI6-VE-lux"/>
                         </constraints>
                     </view>
@@ -66,12 +67,12 @@
                 <outlet property="checkMarkImage" destination="cPn-6Y-Vc6" id="qDl-ge-ztq"/>
                 <outlet property="langlabel" destination="Ogc-Xw-k18" id="uLd-TB-zfn"/>
             </connections>
-            <point key="canvasLocation" x="25" y="48"/>
+            <point key="canvasLocation" x="24.637681159420293" y="47.544642857142854"/>
         </tableViewCell>
     </objects>
     <resources>
         <image name="checkmark" catalog="system" width="128" height="114"/>
-        <image name="scribble.variable" catalog="system" width="128" height="118"/>
+        <image name="scribble" catalog="system" width="128" height="118"/>
         <namedColor name="main_color">
             <color red="0.12999999523162842" green="0.12999999523162842" blue="0.15199999511241913" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

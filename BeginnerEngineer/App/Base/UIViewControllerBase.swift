@@ -9,22 +9,21 @@ import UIKit
 import Foundation
 
 class UIViewControllerBase: UIViewController {
-    
-    fileprivate var currentStoryBoardIdEnum: StoryBoardIDEnum = StoryBoardIDEnum.calendarViewId
-    
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        if currentStoryBoardIdEnum.getStoryBoardIDEnumDetail().isBottomTabBar {
-            // ボトムタブ作成
-            self.createBottomTabBar()
+        if let storyBoardIdEnum = getStoryBoardIdEnum() {
+            if storyBoardIdEnum.getStoryBoardIDEnumDetail().isBottomTabBar {
+                // ボトムタブ作成
+                self.createBottomTabBar()
+            }
         }
+        
     }
     //画面遷移
     open func transitionStoryBoard(sbEnum: StoryBoardIDEnum) {
         let sb = sbEnum.getStoryBoardIDEnumDetail()
-        //次の画面情報を保存
-        self.currentStoryBoardIdEnum = sbEnum
         //次の画面取得
         let storyboard: UIStoryboard = UIStoryboard(name: sb.name, bundle: nil)
         let nextView = storyboard.instantiateInitialViewController()
@@ -44,8 +43,17 @@ class UIViewControllerBase: UIViewController {
         
     }
     
+    // 戻るボタンタップ
     open func tapBackBtn() {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    // クラス名からStoryBoardId取得
+    private func getStoryBoardIdEnum() -> StoryBoardIDEnum? {
+        if let topController = UIApplication.topViewController()  {
+            return StoryBoardIDEnum.findByEnumRawvalue(className: topController.className)
+        }
+        return StoryBoardIDEnum.none
     }
 }
 
@@ -62,10 +70,11 @@ extension UIViewControllerBase: UITabBarDelegate {
             UITabBarItem.init(title: StringEnum.tab1_title.rawValue, image: UIImage(systemName: StringEnum.tab1_image.rawValue), tag: 1)
         let tab2: UITabBarItem =
             UITabBarItem.init(title: StringEnum.tab2_title.rawValue, image: UIImage(systemName: StringEnum.tab2_image.rawValue), tag: 2)
-        let tab3 :UITabBarItem =
-            UITabBarItem.init(title: StringEnum.tab3_title.rawValue, image: UIImage(systemName: StringEnum.tab3_image.rawValue), tag: 3)
-        let tab4 :UITabBarItem =
-            UITabBarItem.init(title: StringEnum.tab4_title.rawValue, image: UIImage(systemName: StringEnum.tab4_image.rawValue), tag: 4)
+        // 後で修正
+        let tab3: UITabBarItem =
+            UITabBarItem.init(title: StringEnum.tab3_title.rawValue, image: UIImage(systemName: StringEnum.tab2_image.rawValue), tag: 3)
+        let tab4: UITabBarItem =
+            UITabBarItem.init(title: StringEnum.tab4_title.rawValue, image: UIImage(systemName: StringEnum.tab2_image.rawValue), tag: 4)
         
         //ボタンをタブバーに配置する
         tabBar.items = [tab1, tab2, tab3, tab4]
