@@ -18,7 +18,7 @@ enum StringEnum: String {
     case tab3_title = "グラフ"
     case tab3_image = "chart"
     case tab4_title = "設定"
-    case tab4_image = "gear"
+    case tab4_image = "person.fill"
 
     
     case yyyyMM = "yyyy年MM月"
