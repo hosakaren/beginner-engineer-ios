@@ -18,10 +18,13 @@ class SearchSettingViewController: UIViewControllerBase {
     //日付選択ビューエリアラベル
     @IBOutlet weak var dateViewAreaLabel: UILabel!
     
+    // 未選択ラベル（言語）
+    @IBOutlet weak var noLangLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.keyword.attributedPlaceholder = NSAttributedString(string: "キーワードを入力", attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
+        self.keyword.attributedPlaceholder = NSAttributedString(string: StringEnum.input_keyword.rawValue, attributes: [NSAttributedString.Key.foregroundColor : UIColor.white])
         //日付選択ビューエリアタップ登録
         let tapDateViewArea = UITapGestureRecognizer(target: self, action: #selector(self.tapDateViewArea))
         self.dateViewArea.addGestureRecognizer(tapDateViewArea)
@@ -33,7 +36,9 @@ class SearchSettingViewController: UIViewControllerBase {
     
     // 画面に戻ってきたとき
     override open func viewWillAppear(_ animated: Bool) {
-        print(self.appData.selectedLanguage)
+        if !self.appData.selectedLanguage.isEmpty {
+            self.noLangLabel.text = String(self.appData.selectedLanguage.count) + StringEnum.count_unit.rawValue
+        }
     }
     
     // 戻るボタンタップ
@@ -49,5 +54,12 @@ class SearchSettingViewController: UIViewControllerBase {
     // 言語エリアをタップ
     @objc func tapLanguageViewArea(){
         self.transitionStoryBoard(sbEnum: .searchSettingLanguageViewId)
+    }
+    
+    // リセットボタンタップ
+    @IBAction func tapResetBtn(_ sender: Any) {
+        self.appData.selectedLanguage = []
+        self.noLangLabel.text = StringEnum.no_selected.rawValue
+        self.keyword.text = ""
     }
 }

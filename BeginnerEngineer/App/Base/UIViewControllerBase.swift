@@ -10,7 +10,7 @@ import Foundation
 
 class UIViewControllerBase: UIViewController {
         
-    var appData = AppData()
+    var appData = AppData.shared
     
     override func viewDidLoad() {
         super.viewDidLoad()

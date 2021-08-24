@@ -33,6 +33,13 @@ class SearchSettingLanguageViewController: UIViewControllerBase {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // langListの中身修正
+        for selectedLang in appData.selectedLanguage {
+            for index in 0..<self.laguageList.count where selectedLang == self.laguageList[index].labelText {
+                self.laguageList[index].iHiddensCheckMarkImage = false
+            }
+        }
+        
         tableView.delegate = self
         tableView.dataSource = self
         
@@ -74,6 +81,9 @@ extension SearchSettingLanguageViewController: UITableViewDelegate, UITableViewD
         let language = laguageList[indexPath.row]
         // セルに表示する値を設定する
         cell.setupCell(langLabelText: language.labelText, isHiddenCheckMarkImage: language.iHiddensCheckMarkImage)
+        
+        // セルのハイライト削除
+        cell.selectionStyle = .none
         
         return cell
     }

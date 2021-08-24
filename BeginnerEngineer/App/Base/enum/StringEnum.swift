@@ -39,4 +39,8 @@ enum StringEnum: String {
     case html_css = "HTML/CSS"
     case otherLang = "その他"
     
+    case no_selected = "未選択"
+    case count_unit = "件選択中"
+    case input_keyword = "キーワードを入力"
+    
 }
