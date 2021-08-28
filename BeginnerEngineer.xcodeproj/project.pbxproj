@@ -19,6 +19,8 @@
 		475B7B5D26D23272001EAA75 /* YearMonthPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475B7B5C26D23272001EAA75 /* YearMonthPickerView.xib */; };
 		475B7B6026D23D21001EAA75 /* WritingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475B7B5F26D23D21001EAA75 /* WritingView.storyboard */; };
 		476328D226CA54D400641920 /* YearMonthPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476328D126CA54D400641920 /* YearMonthPickerViewController.swift */; };
+		4791AC0D26DA7225003345F3 /* DatePickerDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791AC0C26DA7225003345F3 /* DatePickerDialogView.swift */; };
+		4791AC0F26DA723C003345F3 /* DatePickerDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4791AC0E26DA723C003345F3 /* DatePickerDialogView.xib */; };
 		47BF42CC26D1F2F800BF5904 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF42CB26D1F2F800BF5904 /* BorderButton.swift */; };
 		47BF42D026D1F93E00BF5904 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF42CF26D1F93E00BF5904 /* UIViewControllerExtension.swift */; };
 		47BF42D226D1F95500BF5904 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF42D126D1F95500BF5904 /* UIApplicationExtension.swift */; };
@@ -51,6 +53,8 @@
 		475B7B5C26D23272001EAA75 /* YearMonthPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YearMonthPickerView.xib; sourceTree = "<group>"; };
 		475B7B5F26D23D21001EAA75 /* WritingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WritingView.storyboard; sourceTree = "<group>"; };
 		476328D126CA54D400641920 /* YearMonthPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearMonthPickerViewController.swift; sourceTree = "<group>"; };
+		4791AC0C26DA7225003345F3 /* DatePickerDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatePickerDialogView.swift; path = BeginnerEngineer/app/mvc/search/setting/detail/date/DatePickerDialogView.swift; sourceTree = SOURCE_ROOT; };
+		4791AC0E26DA723C003345F3 /* DatePickerDialogView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DatePickerDialogView.xib; path = BeginnerEngineer/app/mvc/search/setting/detail/date/DatePickerDialogView.xib; sourceTree = SOURCE_ROOT; };
 		47BF42CB26D1F2F800BF5904 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
 		47BF42CF26D1F93E00BF5904 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		47BF42D126D1F95500BF5904 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
@@ -133,6 +137,7 @@
 		475022AB26C8E0A900895CCE /* detail */ = {
 			isa = PBXGroup;
 			children = (
+				4791AC0926DA720C003345F3 /* date */,
 				475022AC26C8E0F500895CCE /* language */,
 			);
 			path = detail;
@@ -224,6 +229,15 @@
 				475B7B5C26D23272001EAA75 /* YearMonthPickerView.xib */,
 			);
 			path = view;
+			sourceTree = "<group>";
+		};
+		4791AC0926DA720C003345F3 /* date */ = {
+			isa = PBXGroup;
+			children = (
+				4791AC0C26DA7225003345F3 /* DatePickerDialogView.swift */,
+				4791AC0E26DA723C003345F3 /* DatePickerDialogView.xib */,
+			);
+			path = date;
 			sourceTree = "<group>";
 		};
 		47BF42C926D1F23B00BF5904 /* Extension */ = {
@@ -328,6 +342,7 @@
 				47D850BA26C565060075FB7C /* SearchView.storyboard in Resources */,
 				475B7B6026D23D21001EAA75 /* WritingView.storyboard in Resources */,
 				475154DF26C2284A00B67990 /* CalendarView.storyboard in Resources */,
+				4791AC0F26DA723C003345F3 /* DatePickerDialogView.xib in Resources */,
 				47D4FC6126C264BC00E01104 /* CalendarListView.storyboard in Resources */,
 				475022B026C8E13600895CCE /* SearchSettingLanguageView.storyboard in Resources */,
 				47D850C026C565870075FB7C /* SearchSettingView.storyboard in Resources */,
@@ -390,6 +405,7 @@
 				475154E126C228AA00B67990 /* CalendarViewController.swift in Sources */,
 				47D850BC26C565200075FB7C /* SearchViewController.swift in Sources */,
 				47BF42D226D1F95500BF5904 /* UIApplicationExtension.swift in Sources */,
+				4791AC0D26DA7225003345F3 /* DatePickerDialogView.swift in Sources */,
 				4710E61A26BFEDFF0074B2AD /* ViewController.swift in Sources */,
 				4710E61626BFEDFF0074B2AD /* AppDelegate.swift in Sources */,
 				471E086A26C51744001A957C /* UIViewControllerBase.swift in Sources */,
