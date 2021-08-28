@@ -45,6 +45,10 @@ class UIViewControllerBase: UIViewController {
         
     }
     
+    override open func willMoveToSuperview(_ animated: Bool) {
+        
+    }
+    
     // 戻るボタンタップ
     open func tapBackBtn() {
         self.dismiss(animated: true, completion: nil)

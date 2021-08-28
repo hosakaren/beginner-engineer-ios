@@ -15,4 +15,5 @@ public class AppData: NSObject {
     public static let shared = AppData()
     
     var selectedLanguage:[String] = []
+    var selectedYearMonth: String?
 }

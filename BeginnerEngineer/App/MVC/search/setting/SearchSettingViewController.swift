@@ -28,7 +28,7 @@ class SearchSettingViewController: UIViewControllerBase {
         //日付選択ビューエリアタップ登録
         let tapDateViewArea = UITapGestureRecognizer(target: self, action: #selector(self.tapDateViewArea))
         self.dateViewArea.addGestureRecognizer(tapDateViewArea)
-
+        
         // 言語エリアをタップ登録
         let tapLangViewArea = UITapGestureRecognizer(target: self, action: #selector(self.tapLanguageViewArea))
         self.languageViewArea.addGestureRecognizer(tapLangViewArea)
@@ -48,7 +48,16 @@ class SearchSettingViewController: UIViewControllerBase {
     
     // 日付選択エリアタップ
     @objc func tapDateViewArea(){
-        
+        let dialogView = UINib(nibName: "DatePickerDialogView", bundle: nil)
+            .instantiate(withOwner: nil, options: nil)
+            .first as! DatePickerDialogView
+        dialogView.frame = self.view.frame
+        // ポップアップビュー背景色（グレーの部分）
+        let viewColor = UIColor.init(named: "main_color")
+        // 半透明にして親ビューが見えるように。透過度はお好みで。
+        dialogView.backgroundColor = viewColor?.withAlphaComponent(0.5)
+        dialogView.setUpView()
+        self.view.addSubview(dialogView)
     }
     
     // 言語エリアをタップ
