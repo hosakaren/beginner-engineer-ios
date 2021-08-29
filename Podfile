@@ -8,5 +8,6 @@ target 'BeginnerEngineer' do
   # Pods for BeginnerEngineer
   pod 'FSCalendar'
   pod 'CalculateCalendarLogic'
+  pod 'RealmSwift'
 
 end

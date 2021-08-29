@@ -33,9 +33,14 @@ class DatePickerDialogView: UIView {
         return (Array<Int>)(initialYear...thisYear)
     }
     
+    // 後々汎用性ができるように改善
     @IBAction func tapOkBtn(_ sender: Any) {
         AppData.shared.selectedYearMonth = String(selectedYear ?? initialYear) + StringEnum.year.rawValue
             + String(selectedMonth ?? thisMonth) + StringEnum.month.rawValue
+        let searchSettingViewController = UIApplication.topViewController() as! SearchSettingViewController
+        searchSettingViewController.dateViewAreaLabel.text =
+            String(self.selectedYear ?? self.YEAR_LIST[0]) + StringEnum.year.rawValue
+            + String(self.selectedMonth ?? self.MONTH_LIST[0]) + StringEnum.month.rawValue
         self.removeFromSuperview()
     }
 }

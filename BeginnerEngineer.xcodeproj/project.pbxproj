@@ -11,6 +11,8 @@
 		4710E61826BFEDFF0074B2AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4710E61726BFEDFF0074B2AD /* SceneDelegate.swift */; };
 		4710E61A26BFEDFF0074B2AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4710E61926BFEDFF0074B2AD /* ViewController.swift */; };
 		4710E61F26BFEE000074B2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4710E61E26BFEE000074B2AD /* Assets.xcassets */; };
+		4711B14926DB61ED00D6499E /* SearchHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711B14826DB61ED00D6499E /* SearchHistory.swift */; };
+		4711B14B26DB620800D6499E /* SearhHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711B14A26DB620800D6499E /* SearhHistoryRepository.swift */; };
 		471E086A26C51744001A957C /* UIViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471E086926C51744001A957C /* UIViewControllerBase.swift */; };
 		475022AE26C8E11B00895CCE /* SearchSettingLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475022AD26C8E11B00895CCE /* SearchSettingLanguageViewController.swift */; };
 		475022B026C8E13600895CCE /* SearchSettingLanguageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475022AF26C8E13600895CCE /* SearchSettingLanguageView.storyboard */; };
@@ -45,6 +47,8 @@
 		4710E61926BFEDFF0074B2AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4710E61E26BFEE000074B2AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4710E62326BFEE000074B2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4711B14826DB61ED00D6499E /* SearchHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchHistory.swift; path = BeginnerEngineer/app/SearchHistory.swift; sourceTree = SOURCE_ROOT; };
+		4711B14A26DB620800D6499E /* SearhHistoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearhHistoryRepository.swift; path = BeginnerEngineer/app/SearhHistoryRepository.swift; sourceTree = SOURCE_ROOT; };
 		471E086926C51744001A957C /* UIViewControllerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerBase.swift; sourceTree = "<group>"; };
 		475022AD26C8E11B00895CCE /* SearchSettingLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSettingLanguageViewController.swift; sourceTree = "<group>"; };
 		475022AF26C8E13600895CCE /* SearchSettingLanguageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchSettingLanguageView.storyboard; sourceTree = "<group>"; };
@@ -134,6 +138,38 @@
 			path = BeginnerEngineer;
 			sourceTree = "<group>";
 		};
+		4711B13B26DB5E1000D6499E /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				4711B13C26DB5E3F00D6499E /* TextField */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		4711B13C26DB5E3F00D6499E /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextField;
+			sourceTree = "<group>";
+		};
+		4711B14426DB60F600D6499E /* RealmScheme */ = {
+			isa = PBXGroup;
+			children = (
+				4711B14726DB61BD00D6499E /* SearchHistory */,
+			);
+			name = RealmScheme;
+			sourceTree = "<group>";
+		};
+		4711B14726DB61BD00D6499E /* SearchHistory */ = {
+			isa = PBXGroup;
+			children = (
+				4711B14826DB61ED00D6499E /* SearchHistory.swift */,
+				4711B14A26DB620800D6499E /* SearhHistoryRepository.swift */,
+			);
+			name = SearchHistory;
+			sourceTree = "<group>";
+		};
 		475022AB26C8E0A900895CCE /* detail */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +193,8 @@
 		475154D826C12B9F00B67990 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				4711B14426DB60F600D6499E /* RealmScheme */,
+				4711B13B26DB5E1000D6499E /* Custom */,
 				47BF42C926D1F23B00BF5904 /* Extension */,
 				475154DA26C12BC700B67990 /* MVC */,
 				475154D926C12BB900B67990 /* Base */,
@@ -399,6 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47D4FC6526C2699700E01104 /* StoryBoardIDEnum.swift in Sources */,
+				4711B14926DB61ED00D6499E /* SearchHistory.swift in Sources */,
 				47D4FC6726C28BD300E01104 /* StringEnum.swift in Sources */,
 				47BF42D026D1F93E00BF5904 /* UIViewControllerExtension.swift in Sources */,
 				47EC222626C948940006BA76 /* SearchSettingLanguageCellTableViewCell.swift in Sources */,
@@ -409,6 +448,7 @@
 				4710E61A26BFEDFF0074B2AD /* ViewController.swift in Sources */,
 				4710E61626BFEDFF0074B2AD /* AppDelegate.swift in Sources */,
 				471E086A26C51744001A957C /* UIViewControllerBase.swift in Sources */,
+				4711B14B26DB620800D6499E /* SearhHistoryRepository.swift in Sources */,
 				47D4FC6326C2672100E01104 /* CalendarListViewController.swift in Sources */,
 				4710E61826BFEDFF0074B2AD /* SceneDelegate.swift in Sources */,
 				47D850C226C565B10075FB7C /* SearchSettingViewController.swift in Sources */,
