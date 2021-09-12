@@ -11,32 +11,34 @@
 		4710E61826BFEDFF0074B2AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4710E61726BFEDFF0074B2AD /* SceneDelegate.swift */; };
 		4710E61A26BFEDFF0074B2AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4710E61926BFEDFF0074B2AD /* ViewController.swift */; };
 		4710E61F26BFEE000074B2AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4710E61E26BFEE000074B2AD /* Assets.xcassets */; };
-		4711B14926DB61ED00D6499E /* SearchHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711B14826DB61ED00D6499E /* SearchHistory.swift */; };
-		4711B14B26DB620800D6499E /* SearhHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711B14A26DB620800D6499E /* SearhHistoryRepository.swift */; };
-		471E086A26C51744001A957C /* UIViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471E086926C51744001A957C /* UIViewControllerBase.swift */; };
-		475022AE26C8E11B00895CCE /* SearchSettingLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475022AD26C8E11B00895CCE /* SearchSettingLanguageViewController.swift */; };
-		475022B026C8E13600895CCE /* SearchSettingLanguageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475022AF26C8E13600895CCE /* SearchSettingLanguageView.storyboard */; };
-		475154DF26C2284A00B67990 /* CalendarView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475154DE26C2284A00B67990 /* CalendarView.storyboard */; };
-		475154E126C228AA00B67990 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475154E026C228AA00B67990 /* CalendarViewController.swift */; };
-		475B7B5D26D23272001EAA75 /* YearMonthPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 475B7B5C26D23272001EAA75 /* YearMonthPickerView.xib */; };
-		475B7B6026D23D21001EAA75 /* WritingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475B7B5F26D23D21001EAA75 /* WritingView.storyboard */; };
-		476328D226CA54D400641920 /* YearMonthPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476328D126CA54D400641920 /* YearMonthPickerViewController.swift */; };
-		4791AC0D26DA7225003345F3 /* DatePickerDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4791AC0C26DA7225003345F3 /* DatePickerDialogView.swift */; };
-		4791AC0F26DA723C003345F3 /* DatePickerDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4791AC0E26DA723C003345F3 /* DatePickerDialogView.xib */; };
-		47BF42CC26D1F2F800BF5904 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF42CB26D1F2F800BF5904 /* BorderButton.swift */; };
-		47BF42D026D1F93E00BF5904 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF42CF26D1F93E00BF5904 /* UIViewControllerExtension.swift */; };
-		47BF42D226D1F95500BF5904 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF42D126D1F95500BF5904 /* UIApplicationExtension.swift */; };
-		47BF42D426D2024300BF5904 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BF42D326D2024300BF5904 /* AppData.swift */; };
-		47D4FC6126C264BC00E01104 /* CalendarListView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D4FC6026C264BC00E01104 /* CalendarListView.storyboard */; };
-		47D4FC6326C2672100E01104 /* CalendarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D4FC6226C2672100E01104 /* CalendarListViewController.swift */; };
-		47D4FC6526C2699700E01104 /* StoryBoardIDEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D4FC6426C2699700E01104 /* StoryBoardIDEnum.swift */; };
-		47D4FC6726C28BD300E01104 /* StringEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D4FC6626C28BD300E01104 /* StringEnum.swift */; };
-		47D850BA26C565060075FB7C /* SearchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D850B926C565060075FB7C /* SearchView.storyboard */; };
-		47D850BC26C565200075FB7C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D850BB26C565200075FB7C /* SearchViewController.swift */; };
-		47D850C026C565870075FB7C /* SearchSettingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D850BF26C565870075FB7C /* SearchSettingView.storyboard */; };
-		47D850C226C565B10075FB7C /* SearchSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D850C126C565B10075FB7C /* SearchSettingViewController.swift */; };
-		47EC222626C948940006BA76 /* SearchSettingLanguageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EC222426C948940006BA76 /* SearchSettingLanguageCellTableViewCell.swift */; };
-		47EC222726C948940006BA76 /* SearchSettingLanguageCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47EC222526C948940006BA76 /* SearchSettingLanguageCellTableViewCell.xib */; };
+		47E403DB26EDA6ED000CCD05 /* SearhHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E403D726EDA6EC000CCD05 /* SearhHistoryRepository.swift */; };
+		47E403DC26EDA6ED000CCD05 /* LanguageHistoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E403D826EDA6EC000CCD05 /* LanguageHistoryRepository.swift */; };
+		47E403DD26EDA6ED000CCD05 /* SearchHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E403D926EDA6EC000CCD05 /* SearchHistory.swift */; };
+		47E403DE26EDA6ED000CCD05 /* LanguageHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E403DA26EDA6ED000CCD05 /* LanguageHistory.swift */; };
+		47E403E926EDA70E000CCD05 /* UIViewControllerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E403E126EDA70D000CCD05 /* UIViewControllerBase.swift */; };
+		47E403EA26EDA70E000CCD05 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E403E226EDA70D000CCD05 /* AppData.swift */; };
+		47E403EB26EDA70E000CCD05 /* StringEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E403E426EDA70E000CCD05 /* StringEnum.swift */; };
+		47E403EC26EDA70E000CCD05 /* StoryBoardIDEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E403E526EDA70E000CCD05 /* StoryBoardIDEnum.swift */; };
+		47E403ED26EDA70E000CCD05 /* YearMonthPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E403E726EDA70E000CCD05 /* YearMonthPickerViewController.swift */; };
+		47E403EE26EDA70E000CCD05 /* YearMonthPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E403E826EDA70E000CCD05 /* YearMonthPickerView.xib */; };
+		47E4042E26EDA73D000CCD05 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4041826EDA73D000CCD05 /* SearchViewController.swift */; };
+		47E4042F26EDA73D000CCD05 /* SearchView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E4041926EDA73D000CCD05 /* SearchView.storyboard */; };
+		47E4043026EDA73D000CCD05 /* SearchSettingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E4041B26EDA73D000CCD05 /* SearchSettingView.storyboard */; };
+		47E4043126EDA73D000CCD05 /* SearchSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4041C26EDA73D000CCD05 /* SearchSettingViewController.swift */; };
+		47E4043226EDA73D000CCD05 /* DatePickerDialogView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E4041F26EDA73D000CCD05 /* DatePickerDialogView.xib */; };
+		47E4043326EDA73D000CCD05 /* DatePickerDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4042026EDA73D000CCD05 /* DatePickerDialogView.swift */; };
+		47E4043426EDA73D000CCD05 /* SearchSettingLanguageView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E4042226EDA73D000CCD05 /* SearchSettingLanguageView.storyboard */; };
+		47E4043526EDA73D000CCD05 /* SearchSettingLanguageCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47E4042326EDA73D000CCD05 /* SearchSettingLanguageCellTableViewCell.xib */; };
+		47E4043626EDA73D000CCD05 /* SearchSettingLanguageCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4042426EDA73D000CCD05 /* SearchSettingLanguageCellTableViewCell.swift */; };
+		47E4043726EDA73D000CCD05 /* SearchSettingLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4042526EDA73D000CCD05 /* SearchSettingLanguageViewController.swift */; };
+		47E4043826EDA73D000CCD05 /* CalendarView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E4042726EDA73D000CCD05 /* CalendarView.storyboard */; };
+		47E4043926EDA73D000CCD05 /* CalendarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4042926EDA73D000CCD05 /* CalendarListViewController.swift */; };
+		47E4043A26EDA73D000CCD05 /* CalendarListView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E4042A26EDA73D000CCD05 /* CalendarListView.storyboard */; };
+		47E4043B26EDA73D000CCD05 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4042B26EDA73D000CCD05 /* CalendarViewController.swift */; };
+		47E4043C26EDA73D000CCD05 /* WritingView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E4042D26EDA73D000CCD05 /* WritingView.storyboard */; };
+		47E4044426EDA757000CCD05 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4044026EDA756000CCD05 /* BorderButton.swift */; };
+		47E4044526EDA757000CCD05 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4044126EDA757000CCD05 /* UIViewControllerExtension.swift */; };
+		47E4044626EDA757000CCD05 /* UIApplicationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E4044226EDA757000CCD05 /* UIApplicationExtension.swift */; };
 		F8D7F78357AF018B20A63ADF /* Pods_BeginnerEngineer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A02D986579A0C818CBDFE6 /* Pods_BeginnerEngineer.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,32 +49,34 @@
 		4710E61926BFEDFF0074B2AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4710E61E26BFEE000074B2AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4710E62326BFEE000074B2AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4711B14826DB61ED00D6499E /* SearchHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchHistory.swift; path = BeginnerEngineer/app/SearchHistory.swift; sourceTree = SOURCE_ROOT; };
-		4711B14A26DB620800D6499E /* SearhHistoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearhHistoryRepository.swift; path = BeginnerEngineer/app/SearhHistoryRepository.swift; sourceTree = SOURCE_ROOT; };
-		471E086926C51744001A957C /* UIViewControllerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerBase.swift; sourceTree = "<group>"; };
-		475022AD26C8E11B00895CCE /* SearchSettingLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSettingLanguageViewController.swift; sourceTree = "<group>"; };
-		475022AF26C8E13600895CCE /* SearchSettingLanguageView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchSettingLanguageView.storyboard; sourceTree = "<group>"; };
-		475154DE26C2284A00B67990 /* CalendarView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalendarView.storyboard; sourceTree = "<group>"; };
-		475154E026C228AA00B67990 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
-		475B7B5C26D23272001EAA75 /* YearMonthPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YearMonthPickerView.xib; sourceTree = "<group>"; };
-		475B7B5F26D23D21001EAA75 /* WritingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WritingView.storyboard; sourceTree = "<group>"; };
-		476328D126CA54D400641920 /* YearMonthPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearMonthPickerViewController.swift; sourceTree = "<group>"; };
-		4791AC0C26DA7225003345F3 /* DatePickerDialogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DatePickerDialogView.swift; path = BeginnerEngineer/app/mvc/search/setting/detail/date/DatePickerDialogView.swift; sourceTree = SOURCE_ROOT; };
-		4791AC0E26DA723C003345F3 /* DatePickerDialogView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DatePickerDialogView.xib; path = BeginnerEngineer/app/mvc/search/setting/detail/date/DatePickerDialogView.xib; sourceTree = SOURCE_ROOT; };
-		47BF42CB26D1F2F800BF5904 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
-		47BF42CF26D1F93E00BF5904 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		47BF42D126D1F95500BF5904 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
-		47BF42D326D2024300BF5904 /* AppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
-		47D4FC6026C264BC00E01104 /* CalendarListView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CalendarListView.storyboard; sourceTree = "<group>"; };
-		47D4FC6226C2672100E01104 /* CalendarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarListViewController.swift; sourceTree = "<group>"; };
-		47D4FC6426C2699700E01104 /* StoryBoardIDEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardIDEnum.swift; sourceTree = "<group>"; };
-		47D4FC6626C28BD300E01104 /* StringEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringEnum.swift; sourceTree = "<group>"; };
-		47D850B926C565060075FB7C /* SearchView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchView.storyboard; sourceTree = "<group>"; };
-		47D850BB26C565200075FB7C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		47D850BF26C565870075FB7C /* SearchSettingView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SearchSettingView.storyboard; sourceTree = "<group>"; };
-		47D850C126C565B10075FB7C /* SearchSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSettingViewController.swift; sourceTree = "<group>"; };
-		47EC222426C948940006BA76 /* SearchSettingLanguageCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchSettingLanguageCellTableViewCell.swift; sourceTree = "<group>"; };
-		47EC222526C948940006BA76 /* SearchSettingLanguageCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchSettingLanguageCellTableViewCell.xib; sourceTree = "<group>"; };
+		47E403D726EDA6EC000CCD05 /* SearhHistoryRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearhHistoryRepository.swift; sourceTree = "<group>"; };
+		47E403D826EDA6EC000CCD05 /* LanguageHistoryRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageHistoryRepository.swift; sourceTree = "<group>"; };
+		47E403D926EDA6EC000CCD05 /* SearchHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHistory.swift; sourceTree = "<group>"; };
+		47E403DA26EDA6ED000CCD05 /* LanguageHistory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageHistory.swift; sourceTree = "<group>"; };
+		47E403E126EDA70D000CCD05 /* UIViewControllerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerBase.swift; sourceTree = "<group>"; };
+		47E403E226EDA70D000CCD05 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppData.swift; sourceTree = "<group>"; };
+		47E403E426EDA70E000CCD05 /* StringEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringEnum.swift; sourceTree = "<group>"; };
+		47E403E526EDA70E000CCD05 /* StoryBoardIDEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryBoardIDEnum.swift; sourceTree = "<group>"; };
+		47E403E726EDA70E000CCD05 /* YearMonthPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YearMonthPickerViewController.swift; sourceTree = "<group>"; };
+		47E403E826EDA70E000CCD05 /* YearMonthPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YearMonthPickerView.xib; sourceTree = "<group>"; };
+		47E4041826EDA73D000CCD05 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		47E4041926EDA73D000CCD05 /* SearchView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchView.storyboard; sourceTree = "<group>"; };
+		47E4041B26EDA73D000CCD05 /* SearchSettingView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchSettingView.storyboard; sourceTree = "<group>"; };
+		47E4041C26EDA73D000CCD05 /* SearchSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSettingViewController.swift; sourceTree = "<group>"; };
+		47E4041F26EDA73D000CCD05 /* DatePickerDialogView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerDialogView.xib; sourceTree = "<group>"; };
+		47E4042026EDA73D000CCD05 /* DatePickerDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatePickerDialogView.swift; sourceTree = "<group>"; };
+		47E4042226EDA73D000CCD05 /* SearchSettingLanguageView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SearchSettingLanguageView.storyboard; sourceTree = "<group>"; };
+		47E4042326EDA73D000CCD05 /* SearchSettingLanguageCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchSettingLanguageCellTableViewCell.xib; sourceTree = "<group>"; };
+		47E4042426EDA73D000CCD05 /* SearchSettingLanguageCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSettingLanguageCellTableViewCell.swift; sourceTree = "<group>"; };
+		47E4042526EDA73D000CCD05 /* SearchSettingLanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchSettingLanguageViewController.swift; sourceTree = "<group>"; };
+		47E4042726EDA73D000CCD05 /* CalendarView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CalendarView.storyboard; sourceTree = "<group>"; };
+		47E4042926EDA73D000CCD05 /* CalendarListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarListViewController.swift; sourceTree = "<group>"; };
+		47E4042A26EDA73D000CCD05 /* CalendarListView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CalendarListView.storyboard; sourceTree = "<group>"; };
+		47E4042B26EDA73D000CCD05 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		47E4042D26EDA73D000CCD05 /* WritingView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WritingView.storyboard; sourceTree = "<group>"; };
+		47E4044026EDA756000CCD05 /* BorderButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		47E4044126EDA757000CCD05 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		47E4044226EDA757000CCD05 /* UIApplicationExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplicationExtension.swift; sourceTree = "<group>"; };
 		59A02D986579A0C818CBDFE6 /* Pods_BeginnerEngineer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeginnerEngineer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8057DA6178904996DAC97C /* Pods-BeginnerEngineer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeginnerEngineer.release.xcconfig"; path = "Target Support Files/Pods-BeginnerEngineer/Pods-BeginnerEngineer.release.xcconfig"; sourceTree = "<group>"; };
 		CFEC507DDC302D680B2E3798 /* Pods-BeginnerEngineer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeginnerEngineer.debug.xcconfig"; path = "Target Support Files/Pods-BeginnerEngineer/Pods-BeginnerEngineer.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,7 +132,7 @@
 		4710E61426BFEDFF0074B2AD /* BeginnerEngineer */ = {
 			isa = PBXGroup;
 			children = (
-				475154D826C12B9F00B67990 /* App */,
+				47BFFDB426EDA381009D4477 /* app */,
 				4710E61526BFEDFF0074B2AD /* AppDelegate.swift */,
 				4710E61726BFEDFF0074B2AD /* SceneDelegate.swift */,
 				4710E61926BFEDFF0074B2AD /* ViewController.swift */,
@@ -138,181 +142,167 @@
 			path = BeginnerEngineer;
 			sourceTree = "<group>";
 		};
-		4711B13B26DB5E1000D6499E /* Custom */ = {
+		47BFFDB426EDA381009D4477 /* app */ = {
 			isa = PBXGroup;
 			children = (
-				4711B13C26DB5E3F00D6499E /* TextField */,
+				47BFFDB826EDA3AC009D4477 /* extension */,
+				47BFFDB726EDA3A4009D4477 /* mvc */,
+				47BFFDB626EDA398009D4477 /* base */,
+				47BFFDB526EDA390009D4477 /* scheme */,
 			);
-			path = Custom;
+			path = app;
 			sourceTree = "<group>";
 		};
-		4711B13C26DB5E3F00D6499E /* TextField */ = {
+		47BFFDB526EDA390009D4477 /* scheme */ = {
 			isa = PBXGroup;
 			children = (
+				47E403DA26EDA6ED000CCD05 /* LanguageHistory.swift */,
+				47E403D826EDA6EC000CCD05 /* LanguageHistoryRepository.swift */,
+				47E403D926EDA6EC000CCD05 /* SearchHistory.swift */,
+				47E403D726EDA6EC000CCD05 /* SearhHistoryRepository.swift */,
 			);
-			path = TextField;
+			path = scheme;
 			sourceTree = "<group>";
 		};
-		4711B14426DB60F600D6499E /* RealmScheme */ = {
+		47BFFDB626EDA398009D4477 /* base */ = {
 			isa = PBXGroup;
 			children = (
-				4711B14726DB61BD00D6499E /* SearchHistory */,
+				47E403E226EDA70D000CCD05 /* AppData.swift */,
+				47E403E326EDA70E000CCD05 /* enum */,
+				47E403E126EDA70D000CCD05 /* UIViewControllerBase.swift */,
+				47E403E626EDA70E000CCD05 /* view */,
 			);
-			name = RealmScheme;
+			path = base;
 			sourceTree = "<group>";
 		};
-		4711B14726DB61BD00D6499E /* SearchHistory */ = {
+		47BFFDB726EDA3A4009D4477 /* mvc */ = {
 			isa = PBXGroup;
 			children = (
-				4711B14826DB61ED00D6499E /* SearchHistory.swift */,
-				4711B14A26DB620800D6499E /* SearhHistoryRepository.swift */,
+				47E4042626EDA73D000CCD05 /* calendar */,
+				47E4041726EDA73D000CCD05 /* search */,
 			);
-			name = SearchHistory;
+			path = mvc;
 			sourceTree = "<group>";
 		};
-		475022AB26C8E0A900895CCE /* detail */ = {
+		47BFFDB826EDA3AC009D4477 /* extension */ = {
 			isa = PBXGroup;
 			children = (
-				4791AC0926DA720C003345F3 /* date */,
-				475022AC26C8E0F500895CCE /* language */,
+				47E4043F26EDA756000CCD05 /* Button */,
+				47E4044326EDA757000CCD05 /* TextField */,
+				47E4044226EDA757000CCD05 /* UIApplicationExtension.swift */,
+				47E4044126EDA757000CCD05 /* UIViewControllerExtension.swift */,
 			);
-			path = detail;
+			path = extension;
 			sourceTree = "<group>";
 		};
-		475022AC26C8E0F500895CCE /* language */ = {
+		47E403E326EDA70E000CCD05 /* enum */ = {
 			isa = PBXGroup;
 			children = (
-				475022AD26C8E11B00895CCE /* SearchSettingLanguageViewController.swift */,
-				475022AF26C8E13600895CCE /* SearchSettingLanguageView.storyboard */,
-				47EC222426C948940006BA76 /* SearchSettingLanguageCellTableViewCell.swift */,
-				47EC222526C948940006BA76 /* SearchSettingLanguageCellTableViewCell.xib */,
-			);
-			path = language;
-			sourceTree = "<group>";
-		};
-		475154D826C12B9F00B67990 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				4711B14426DB60F600D6499E /* RealmScheme */,
-				4711B13B26DB5E1000D6499E /* Custom */,
-				47BF42C926D1F23B00BF5904 /* Extension */,
-				475154DA26C12BC700B67990 /* MVC */,
-				475154D926C12BB900B67990 /* Base */,
-			);
-			path = App;
-			sourceTree = "<group>";
-		};
-		475154D926C12BB900B67990 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				476328D026CA542500641920 /* view */,
-				476328CF26CA540C00641920 /* enum */,
-				471E086926C51744001A957C /* UIViewControllerBase.swift */,
-				47BF42D326D2024300BF5904 /* AppData.swift */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		475154DA26C12BC700B67990 /* MVC */ = {
-			isa = PBXGroup;
-			children = (
-				475154DD26C2280A00B67990 /* search */,
-				475154DC26C227E800B67990 /* calendar */,
-			);
-			path = MVC;
-			sourceTree = "<group>";
-		};
-		475154DC26C227E800B67990 /* calendar */ = {
-			isa = PBXGroup;
-			children = (
-				475B7B5E26D23A88001EAA75 /* writing */,
-				47D4FC5F26C2649300E01104 /* list */,
-				475154DE26C2284A00B67990 /* CalendarView.storyboard */,
-				475154E026C228AA00B67990 /* CalendarViewController.swift */,
-			);
-			path = calendar;
-			sourceTree = "<group>";
-		};
-		475154DD26C2280A00B67990 /* search */ = {
-			isa = PBXGroup;
-			children = (
-				47D850BD26C5652D0075FB7C /* setting */,
-				47D850B926C565060075FB7C /* SearchView.storyboard */,
-				47D850BB26C565200075FB7C /* SearchViewController.swift */,
-			);
-			path = search;
-			sourceTree = "<group>";
-		};
-		475B7B5E26D23A88001EAA75 /* writing */ = {
-			isa = PBXGroup;
-			children = (
-				475B7B5F26D23D21001EAA75 /* WritingView.storyboard */,
-			);
-			path = writing;
-			sourceTree = "<group>";
-		};
-		476328CF26CA540C00641920 /* enum */ = {
-			isa = PBXGroup;
-			children = (
-				47D4FC6426C2699700E01104 /* StoryBoardIDEnum.swift */,
-				47D4FC6626C28BD300E01104 /* StringEnum.swift */,
+				47E403E426EDA70E000CCD05 /* StringEnum.swift */,
+				47E403E526EDA70E000CCD05 /* StoryBoardIDEnum.swift */,
 			);
 			path = enum;
 			sourceTree = "<group>";
 		};
-		476328D026CA542500641920 /* view */ = {
+		47E403E626EDA70E000CCD05 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				476328D126CA54D400641920 /* YearMonthPickerViewController.swift */,
-				475B7B5C26D23272001EAA75 /* YearMonthPickerView.xib */,
+				47E403E726EDA70E000CCD05 /* YearMonthPickerViewController.swift */,
+				47E403E826EDA70E000CCD05 /* YearMonthPickerView.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
 		};
-		4791AC0926DA720C003345F3 /* date */ = {
+		47E4041726EDA73D000CCD05 /* search */ = {
 			isa = PBXGroup;
 			children = (
-				4791AC0C26DA7225003345F3 /* DatePickerDialogView.swift */,
-				4791AC0E26DA723C003345F3 /* DatePickerDialogView.xib */,
+				47E4041826EDA73D000CCD05 /* SearchViewController.swift */,
+				47E4041926EDA73D000CCD05 /* SearchView.storyboard */,
+				47E4041A26EDA73D000CCD05 /* setting */,
+			);
+			path = search;
+			sourceTree = "<group>";
+		};
+		47E4041A26EDA73D000CCD05 /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				47E4041B26EDA73D000CCD05 /* SearchSettingView.storyboard */,
+				47E4041C26EDA73D000CCD05 /* SearchSettingViewController.swift */,
+				47E4041D26EDA73D000CCD05 /* detail */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		47E4041D26EDA73D000CCD05 /* detail */ = {
+			isa = PBXGroup;
+			children = (
+				47E4041E26EDA73D000CCD05 /* date */,
+				47E4042126EDA73D000CCD05 /* language */,
+			);
+			path = detail;
+			sourceTree = "<group>";
+		};
+		47E4041E26EDA73D000CCD05 /* date */ = {
+			isa = PBXGroup;
+			children = (
+				47E4041F26EDA73D000CCD05 /* DatePickerDialogView.xib */,
+				47E4042026EDA73D000CCD05 /* DatePickerDialogView.swift */,
 			);
 			path = date;
 			sourceTree = "<group>";
 		};
-		47BF42C926D1F23B00BF5904 /* Extension */ = {
+		47E4042126EDA73D000CCD05 /* language */ = {
 			isa = PBXGroup;
 			children = (
-				47BF42CA26D1F28100BF5904 /* Button */,
-				47BF42CF26D1F93E00BF5904 /* UIViewControllerExtension.swift */,
-				47BF42D126D1F95500BF5904 /* UIApplicationExtension.swift */,
+				47E4042226EDA73D000CCD05 /* SearchSettingLanguageView.storyboard */,
+				47E4042326EDA73D000CCD05 /* SearchSettingLanguageCellTableViewCell.xib */,
+				47E4042426EDA73D000CCD05 /* SearchSettingLanguageCellTableViewCell.swift */,
+				47E4042526EDA73D000CCD05 /* SearchSettingLanguageViewController.swift */,
 			);
-			path = Extension;
+			path = language;
 			sourceTree = "<group>";
 		};
-		47BF42CA26D1F28100BF5904 /* Button */ = {
+		47E4042626EDA73D000CCD05 /* calendar */ = {
 			isa = PBXGroup;
 			children = (
-				47BF42CB26D1F2F800BF5904 /* BorderButton.swift */,
+				47E4042726EDA73D000CCD05 /* CalendarView.storyboard */,
+				47E4042826EDA73D000CCD05 /* list */,
+				47E4042B26EDA73D000CCD05 /* CalendarViewController.swift */,
+				47E4042C26EDA73D000CCD05 /* writing */,
 			);
-			path = Button;
+			path = calendar;
 			sourceTree = "<group>";
 		};
-		47D4FC5F26C2649300E01104 /* list */ = {
+		47E4042826EDA73D000CCD05 /* list */ = {
 			isa = PBXGroup;
 			children = (
-				47D4FC6026C264BC00E01104 /* CalendarListView.storyboard */,
-				47D4FC6226C2672100E01104 /* CalendarListViewController.swift */,
+				47E4042926EDA73D000CCD05 /* CalendarListViewController.swift */,
+				47E4042A26EDA73D000CCD05 /* CalendarListView.storyboard */,
 			);
 			path = list;
 			sourceTree = "<group>";
 		};
-		47D850BD26C5652D0075FB7C /* setting */ = {
+		47E4042C26EDA73D000CCD05 /* writing */ = {
 			isa = PBXGroup;
 			children = (
-				475022AB26C8E0A900895CCE /* detail */,
-				47D850BF26C565870075FB7C /* SearchSettingView.storyboard */,
-				47D850C126C565B10075FB7C /* SearchSettingViewController.swift */,
+				47E4042D26EDA73D000CCD05 /* WritingView.storyboard */,
 			);
-			path = setting;
+			path = writing;
+			sourceTree = "<group>";
+		};
+		47E4043F26EDA756000CCD05 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				47E4044026EDA756000CCD05 /* BorderButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		47E4044326EDA757000CCD05 /* TextField */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,16 +364,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				475B7B5D26D23272001EAA75 /* YearMonthPickerView.xib in Resources */,
-				47EC222726C948940006BA76 /* SearchSettingLanguageCellTableViewCell.xib in Resources */,
+				47E4043526EDA73D000CCD05 /* SearchSettingLanguageCellTableViewCell.xib in Resources */,
+				47E403EE26EDA70E000CCD05 /* YearMonthPickerView.xib in Resources */,
+				47E4043226EDA73D000CCD05 /* DatePickerDialogView.xib in Resources */,
+				47E4043826EDA73D000CCD05 /* CalendarView.storyboard in Resources */,
+				47E4042F26EDA73D000CCD05 /* SearchView.storyboard in Resources */,
+				47E4043026EDA73D000CCD05 /* SearchSettingView.storyboard in Resources */,
+				47E4043C26EDA73D000CCD05 /* WritingView.storyboard in Resources */,
+				47E4043426EDA73D000CCD05 /* SearchSettingLanguageView.storyboard in Resources */,
 				4710E61F26BFEE000074B2AD /* Assets.xcassets in Resources */,
-				47D850BA26C565060075FB7C /* SearchView.storyboard in Resources */,
-				475B7B6026D23D21001EAA75 /* WritingView.storyboard in Resources */,
-				475154DF26C2284A00B67990 /* CalendarView.storyboard in Resources */,
-				4791AC0F26DA723C003345F3 /* DatePickerDialogView.xib in Resources */,
-				47D4FC6126C264BC00E01104 /* CalendarListView.storyboard in Resources */,
-				475022B026C8E13600895CCE /* SearchSettingLanguageView.storyboard in Resources */,
-				47D850C026C565870075FB7C /* SearchSettingView.storyboard in Resources */,
+				47E4043A26EDA73D000CCD05 /* CalendarListView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,26 +426,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47D4FC6526C2699700E01104 /* StoryBoardIDEnum.swift in Sources */,
-				4711B14926DB61ED00D6499E /* SearchHistory.swift in Sources */,
-				47D4FC6726C28BD300E01104 /* StringEnum.swift in Sources */,
-				47BF42D026D1F93E00BF5904 /* UIViewControllerExtension.swift in Sources */,
-				47EC222626C948940006BA76 /* SearchSettingLanguageCellTableViewCell.swift in Sources */,
-				475154E126C228AA00B67990 /* CalendarViewController.swift in Sources */,
-				47D850BC26C565200075FB7C /* SearchViewController.swift in Sources */,
-				47BF42D226D1F95500BF5904 /* UIApplicationExtension.swift in Sources */,
-				4791AC0D26DA7225003345F3 /* DatePickerDialogView.swift in Sources */,
+				47E4043B26EDA73D000CCD05 /* CalendarViewController.swift in Sources */,
+				47E403EC26EDA70E000CCD05 /* StoryBoardIDEnum.swift in Sources */,
+				47E4044626EDA757000CCD05 /* UIApplicationExtension.swift in Sources */,
 				4710E61A26BFEDFF0074B2AD /* ViewController.swift in Sources */,
+				47E403DC26EDA6ED000CCD05 /* LanguageHistoryRepository.swift in Sources */,
+				47E403E926EDA70E000CCD05 /* UIViewControllerBase.swift in Sources */,
+				47E4043126EDA73D000CCD05 /* SearchSettingViewController.swift in Sources */,
+				47E403DD26EDA6ED000CCD05 /* SearchHistory.swift in Sources */,
+				47E403DB26EDA6ED000CCD05 /* SearhHistoryRepository.swift in Sources */,
+				47E4043626EDA73D000CCD05 /* SearchSettingLanguageCellTableViewCell.swift in Sources */,
 				4710E61626BFEDFF0074B2AD /* AppDelegate.swift in Sources */,
-				471E086A26C51744001A957C /* UIViewControllerBase.swift in Sources */,
-				4711B14B26DB620800D6499E /* SearhHistoryRepository.swift in Sources */,
-				47D4FC6326C2672100E01104 /* CalendarListViewController.swift in Sources */,
+				47E403ED26EDA70E000CCD05 /* YearMonthPickerViewController.swift in Sources */,
+				47E4042E26EDA73D000CCD05 /* SearchViewController.swift in Sources */,
+				47E4043726EDA73D000CCD05 /* SearchSettingLanguageViewController.swift in Sources */,
+				47E403EB26EDA70E000CCD05 /* StringEnum.swift in Sources */,
+				47E403DE26EDA6ED000CCD05 /* LanguageHistory.swift in Sources */,
+				47E4043326EDA73D000CCD05 /* DatePickerDialogView.swift in Sources */,
 				4710E61826BFEDFF0074B2AD /* SceneDelegate.swift in Sources */,
-				47D850C226C565B10075FB7C /* SearchSettingViewController.swift in Sources */,
-				47BF42D426D2024300BF5904 /* AppData.swift in Sources */,
-				476328D226CA54D400641920 /* YearMonthPickerViewController.swift in Sources */,
-				475022AE26C8E11B00895CCE /* SearchSettingLanguageViewController.swift in Sources */,
-				47BF42CC26D1F2F800BF5904 /* BorderButton.swift in Sources */,
+				47E4043926EDA73D000CCD05 /* CalendarListViewController.swift in Sources */,
+				47E403EA26EDA70E000CCD05 /* AppData.swift in Sources */,
+				47E4044526EDA757000CCD05 /* UIViewControllerExtension.swift in Sources */,
+				47E4044426EDA757000CCD05 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

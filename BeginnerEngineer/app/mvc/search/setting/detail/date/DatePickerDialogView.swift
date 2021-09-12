@@ -27,6 +27,12 @@ class DatePickerDialogView: UIView {
     public func setUpView() {
         selectedYear = self.YEAR_LIST[0]
         selectedMonth = self.MONTH_LIST[0]
+        
+        let yearIndex = YEAR_LIST.firstIndex(of: AppData.shared.selectedYear ?? thisYear) ?? 0
+        let monthIndex = MONTH_LIST.firstIndex(of: AppData.shared.selectedMonth ?? thisMonth) ?? 0
+
+        self.yearPicker.selectRow(yearIndex, inComponent: 0, animated: false)
+        self.monthPicker.selectRow(monthIndex, inComponent: 0, animated: false)
     }
     
     private func createYearList(_ initialYear: Int) -> [Int] {
@@ -35,12 +41,22 @@ class DatePickerDialogView: UIView {
     
     // 後々汎用性ができるように改善
     @IBAction func tapOkBtn(_ sender: Any) {
-        AppData.shared.selectedYearMonth = String(selectedYear ?? initialYear) + StringEnum.year.rawValue
+        AppData.shared.selectedYearMonth =
+            String(selectedYear ?? thisYear) + StringEnum.year.rawValue
             + String(selectedMonth ?? thisMonth) + StringEnum.month.rawValue
+        
+        AppData.shared.selectedYear = selectedYear ?? thisYear
+        AppData.shared.selectedMonth = selectedMonth ?? thisMonth
+        
         let searchSettingViewController = UIApplication.topViewController() as! SearchSettingViewController
+        
+        let yearIndex = YEAR_LIST.firstIndex(of: AppData.shared.selectedYear ?? thisYear) ?? 0
+        let monthIndex = MONTH_LIST.firstIndex(of: AppData.shared.selectedMonth ?? thisMonth) ?? 0
+        
         searchSettingViewController.dateViewAreaLabel.text =
-            String(self.selectedYear ?? self.YEAR_LIST[0]) + StringEnum.year.rawValue
-            + String(self.selectedMonth ?? self.MONTH_LIST[0]) + StringEnum.month.rawValue
+            String(self.YEAR_LIST[yearIndex]) + StringEnum.year.rawValue
+            + String(self.MONTH_LIST[monthIndex]) + StringEnum.month.rawValue
+        
         self.removeFromSuperview()
     }
 }

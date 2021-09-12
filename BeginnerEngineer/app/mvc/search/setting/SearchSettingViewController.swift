@@ -67,8 +67,30 @@ class SearchSettingViewController: UIViewControllerBase {
     
     // リセットボタンタップ
     @IBAction func tapResetBtn(_ sender: Any) {
+        // キーワードリセット
+        self.keyword.text = ""
+        // 言語リセット
         self.appData.selectedLanguage = []
         self.noLangLabel.text = StringEnum.no_selected.rawValue
-        self.keyword.text = ""
+        
+        // 日付リセット
+        self.dateViewAreaLabel.text = StringEnum.no_selected.rawValue
+        self.appData.selectedYearMonth = ""
+        self.appData.selectedYear = nil
+        self.appData.selectedMonth = nil
     }
+    
+    // 検索ボタンタップ
+    @IBAction func tapDoSearchBtn(_ sender: Any) {
+        
+//        let searchHistory = SearchHistory.createObj(
+//            keyword: self.keyword.text,
+//            yearMonth: self.appData.selectedYearMonth,
+//            languageList: self.appData.selectedLanguage)
+//        SearhHistoryRepository().save(searchHistory)
+        SearhHistoryRepository().findOne()
+        // 検索画面に遷移
+        self.transitionStoryBoard(sbEnum: StoryBoardIDEnum.searchViewId)
+    }
+    
 }

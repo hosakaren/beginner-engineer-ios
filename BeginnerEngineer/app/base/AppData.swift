@@ -16,4 +16,6 @@ public class AppData: NSObject {
     
     var selectedLanguage:[String] = []
     var selectedYearMonth: String?
+    var selectedYear: Int?
+    var selectedMonth: Int?
 }
